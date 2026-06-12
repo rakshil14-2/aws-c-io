@@ -809,3 +809,19 @@ macOS | `USE_S2N` defined, `AWS_CRT_USE_NON_FIPS_TLS_13` env var set | s2n-tls
 macOS | `USE_S2N` defined, `AWS_CRT_USE_NON_FIPS_TLS_13` env var unset | Apple Secure Transport
 macOS | Neither `AWS_USE_SECITEM` nor `USE_S2N` | Apple Secure Transport
 Any | `BYO_CRYPTO` enabled | Application-provided implementation
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| manylinux2014 | x64, x86 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+
+<!-- PLATFORM_SUPPORT_END -->
